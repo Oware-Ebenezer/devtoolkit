@@ -1,16 +1,152 @@
-# React + Vite
+# DevToolkit Pro
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**Fast. Clean. Essential developer utilities.**
 
-Currently, two official plugins are available:
+DevToolkit Pro is a modern web application that provides a collection of everyday developer tools in a clean, responsive, and user-friendly interface. It is designed to improve productivity by offering quick access to commonly used utilities without requiring external software or subscriptions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+🔗 [Live Application](YOUR_VERCEL_URL)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## GitHub Repository
 
-## Expanding the Oxlint configuration
+🔗 [Source Code](YOUR_GITHUB_REPOSITORY)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## Features
+
+### JSON Formatter & Validator
+
+* Format raw JSON into readable structure
+* Validate JSON syntax
+* Display clear error messages
+* Copy formatted JSON to clipboard
+
+### Password Generator
+
+* Generate secure passwords instantly
+* Custom password length
+* Toggle numbers
+* Toggle special characters
+* Copy generated password
+
+### Text Utilities
+
+* Word count
+* Character count
+* Estimated reading time
+
+---
+
+## Why I Built This
+
+As a Computer Science student and developer, I frequently use tools such as JSON formatters, password generators, and text analyzers during development, coursework, and personal projects.
+
+Instead of visiting multiple websites, I wanted a single modern platform that provides these utilities in one place with a clean user experience.
+
+---
+
+## Tech Stack
+
+### Frontend
+
+* React
+* Vite
+* Tailwind CSS
+* Lucide React
+
+### Deployment
+
+* Vercel
+
+---
+
+## Design Philosophy
+
+DevToolkit Pro was designed with the following principles:
+
+* Simplicity
+* Performance
+* Accessibility
+* Responsive Design
+* Modern SaaS-inspired UI
+
+### Color Palette
+
+| Purpose           | Color   |
+| ----------------- | ------- |
+| Background        | #E8EDF2 |
+| Dark Surface      | #2C3947 |
+| Secondary Accent  | #547A95 |
+| Premium Highlight | #C2A56D |
+
+---
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── pages/
+├── hooks/
+├── utils/
+├── assets/
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/yourusername/devtoolkit-pro.git
+
+cd devtoolkit-pro
+
+npm install
+
+npm run dev
+```
+
+---
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## Future Improvements
+
+* Dark Mode
+* Base64 Encoder / Decoder
+* JWT Decoder
+* URL Encoder / Decoder
+* Markdown Previewer
+* Code Beautifier
+* File Conversion Utilities
+
+---
+
+## Author
+
+**Ebenezer Kwabena Oware**
+
+Email: nanaprestige71@gmail.com
+
+
+
+---
+
+## Built for Digital Heroes
+
+This project was created as part of the Digital Heroes Developer Trial Task.
+
+🔗 https://digitalheroesco.com
+
+---
+
