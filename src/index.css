@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Outfit', sans-serif;
+  --font-mono: 'Fira Code', monospace;
+  
+  --color-brand-bg: #E8EDF2;
+  --color-brand-dark: #2C3947;
+  --color-brand-accent: #547A95;
+  --color-brand-gold: #C2A56D;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-brand-bg);
+    color: var(--color-brand-dark);
+    font-family: var(--font-sans);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  /* Custom scrollbar for textareas and outputs */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(84, 122, 149, 0.20);
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(84, 122, 149, 0.40);
+  }
+}
+
+/* Glassmorphism helpers */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(44, 57, 71, 0.05);
+}
+
+.glass-card-dark {
+  background: rgba(44, 57, 71, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(84, 122, 149, 0.20);
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.2);
+}
+
+.glass-input {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(84, 122, 149, 0.20);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-input:focus {
+  background: #ffffff;
+  border-color: #C2A56D;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(194, 165, 109, 0.15);
+}
+
+.premium-gradient-text {
+  background: linear-gradient(135deg, #2C3947 30%, #547A95 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #DFCEAC 0%, #C2A56D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
