@@ -6,11 +6,11 @@ DevToolkit Pro is a modern web application that provides a collection of everyda
 
 ## Live Demo
 
-🔗 [Live Application](YOUR_VERCEL_URL)
+🔗 https://devtoolkit-umber.vercel.app/
 
 ## GitHub Repository
 
-🔗 [Source Code](YOUR_GITHUB_REPOSITORY)
+🔗 https://github.com/Oware-Ebenezer/devtoolkit.git
 
 ---
 
@@ -138,8 +138,7 @@ npm run build
 
 Email: nanaprestige71@gmail.com
 
-
-
+Portfolio: TO BE ADDED [work in progress...]
 ---
 
 ## Built for Digital Heroes
